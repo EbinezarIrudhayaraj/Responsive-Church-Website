@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ebenezar Praising Center</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&family=Russo+One&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img class="logo" src="Images/Copy of Church Church Logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="service.html">SERVICES</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    
+                </ul>
+
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>SERVICES</h1>
+
+    </section>
+
+    <!------Service----->
+
+    <section class="services">
+        <h1>services</h1>
+        <p>JOIN US</p>
+        <div class="row">
+        <div class="course-col">
+            <h3>Sunday Morning Service</h3>
+            <p>Timing 10.00AM - 1.00PM</p>
+            <p>With Lunch</p>
+        </div>
+        <div class="course-col">
+            <h3>Sunday Evening Service</h3>
+            <p>Timing 7.00PM - 9.00PM</p>
+        </div>
+    </div>
+
+    </section>
+
+    <!-------special service------>
+
+    <section class="Special">
+        <h1>Special services</h1>
+        <p></p>
+        <div class="row">
+        <div class="special-col">
+            <img src="Images/eucharist.jpg" alt="">
+            
+            <p>5.00AM - 7.00AM</p>
+            <p>First of every month early morning Communion service</p>
+            <h3>Communion</h3>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+        </div>
+        <div class="special-col">
+            <img src="Images/night prayer.jpg" alt="">
+            <p>10.00PM - 1.00AM</p>
+            <P>Newmoon day of every month- All night <br>service </P>
+            <h3>Night Prayer</h3>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+        </div>
+    </div>
+
+    </section>
+
+   
+
+    
+
+<!------Footer-------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Providing Houston's Pearland and Missouri City communities with an unprecedented movement of hope, healing and empowerment. Choosing LOVE over legalism, <br>TRUTH over tradition, and RELATIONSHIP over religion, church as you know it, will NEVER be the same. COME! Be a part of something BIG!</p>
+
+    <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-whatsapp"></i>
+    </div>
+    <p>Love others like you</p>
+</section>
+
+
+    <!-------JavaScript for Toggle Menu-------->
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+    
+</body>
+</html>
